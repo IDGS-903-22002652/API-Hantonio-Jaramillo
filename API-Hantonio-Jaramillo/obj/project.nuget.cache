@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0vzVy4Esnf8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omjag\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "C:\\Users\\omjag\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

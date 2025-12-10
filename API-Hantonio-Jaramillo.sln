@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Hantonio-Jaramillo", "API-Hantonio-Jaramillo\API-Hantonio-Jaramillo.csproj", "{31475833-950B-4031-9563-83D6CDDDF865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31475833-950B-4031-9563-83D6CDDDF865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31475833-950B-4031-9563-83D6CDDDF865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31475833-950B-4031-9563-83D6CDDDF865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31475833-950B-4031-9563-83D6CDDDF865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A77B6ECA-E673-4E1C-AD8B-29FBD050BF34}
+	EndGlobalSection
+EndGlobal
