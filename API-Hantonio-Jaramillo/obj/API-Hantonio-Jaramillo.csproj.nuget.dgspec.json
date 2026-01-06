@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj": {}
+    "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
         "projectName": "API-Hantonio-Jaramillo",
-        "projectPath": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-        "packagesPath": "C:\\Users\\omjag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\obj\\",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
+        "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\omjag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net10.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net10.0": {
+            "targetAlias": "net10.0",
             "projectReferences": {}
           }
         },
@@ -42,17 +43,35 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net10.0": {
+          "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.11, )"
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.0, )"
             }
           },
           "imports": [
@@ -74,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
