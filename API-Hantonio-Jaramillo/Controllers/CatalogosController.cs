@@ -27,10 +27,10 @@ public class CatalogosController : ControllerBase
     }
 
     [HttpPost("estatus")]
-    [Authorize(Roles = "Administrador")]
+    [Authorize]
     public async Task<ActionResult<CatEstatus>> CreateEstatus(CatEstatus estatus)
     {
-        if (string.IsNullOrWhiteSpace(estatus.Nombre))
+        if (string.IsNullOrWhiteSpace(estatus.Descripcion))
         {
             return BadRequest("El nombre del estatus es obligatorio.");
         }
@@ -49,10 +49,10 @@ public class CatalogosController : ControllerBase
     }
 
     [HttpPost("tipos-traje")]
-    [Authorize(Roles = "Administrador")]
+    [Authorize]
     public async Task<ActionResult<CatTipoTraje>> CreateTipoTraje(CatTipoTraje tipoTraje)
     {
-        if (string.IsNullOrWhiteSpace(tipoTraje.Nombre))
+        if (string.IsNullOrWhiteSpace(tipoTraje.Descripcion))
         {
             return BadRequest("El nombre del tipo de traje es obligatorio.");
         }
@@ -80,7 +80,7 @@ public class CatalogosController : ControllerBase
     }
 
     [HttpPost("recursos-diseno")]
-    [Authorize(Roles = "Administrador")]
+    [Authorize]
     public async Task<ActionResult<CatRecursosDiseno>> CreateRecursoDiseno(CatRecursosDiseno recurso)
     {
         if (string.IsNullOrWhiteSpace(recurso.Prenda))

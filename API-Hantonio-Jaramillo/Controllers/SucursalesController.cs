@@ -1,4 +1,4 @@
-using API_Hantonio_Jaramillo.Data;
+﻿using API_Hantonio_Jaramillo.Data;
 using API_Hantonio_Jaramillo.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API_Hantonio_Jaramillo.Controllers;
 
-[Authorize]
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class SucursalesController : ControllerBase
 {
     private readonly AppDbContext _context;
@@ -19,69 +19,52 @@ public class SucursalesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Sucursal>>> GetSucursales()
+    [AllowAnonymous]
+    public async Task<ActionResult<List<Sucursal>>> GetSucursales()
     {
-        return await _context.Sucursales.ToListAsync();
-    }
-
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Sucursal>> GetSucursal(int id)
-    {
-        var sucursal = await _context.Sucursales.FindAsync(id);
-        return sucursal is null ? NotFound() : sucursal;
+        // Retornar TODAS las sucursales (activas e inactivas)
+        var list = await _context.Sucursales.ToListAsync();
+        return Ok(list);
     }
 
     [HttpPost]
-    [Authorize(Roles = "Administrador")]
-    public async Task<ActionResult<Sucursal>> CreateSucursal(Sucursal sucursal)
+    [Authorize]
+    public async Task<ActionResult<Sucursal>> CreateSucursal([FromBody] Sucursal model)
     {
-        if (string.IsNullOrWhiteSpace(sucursal.Nombre))
-        {
-            return BadRequest("El nombre de la sucursal es obligatorio.");
-        }
-
-        _context.Sucursales.Add(sucursal);
+        _context.Sucursales.Add(model);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetSucursal), new { id = sucursal.IdSucursal }, sucursal);
+        return CreatedAtAction(nameof(GetSucursales), new { id = model.IdSucursal }, model);
     }
 
     [HttpPut("{id}")]
-    [Authorize(Roles = "Administrador")]
-    public async Task<IActionResult> UpdateSucursal(int id, Sucursal sucursal)
+    [Authorize]
+    public async Task<IActionResult> UpdateSucursal(int id, [FromBody] Sucursal model)
     {
-        if (id != sucursal.IdSucursal)
-        {
-            return BadRequest("El ID no coincide.");
-        }
+        var entidad = await _context.Sucursales.FindAsync(id);
+        if (entidad == null) return NotFound();
 
-        if (!await _context.Sucursales.AnyAsync(s => s.IdSucursal == id))
-        {
-            return NotFound();
-        }
+        // ✅ ACTUALIZAR TODOS LOS CAMPOS
+        entidad.Nombre = model.Nombre;
+        entidad.Direccion = model.Direccion;
+        entidad.Telefono = model.Telefono;
+        entidad.Encargado = model.Encargado;
+        entidad.Activa = model.Activa;  // ← ESTE ES EL CAMPO CRÍTICO
 
-        _context.Entry(sucursal).State = EntityState.Modified;
-
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            return Conflict("Error de concurrencia al actualizar.");
-        }
-
+        await _context.SaveChangesAsync();
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Administrador")]
+    [Authorize]
     public async Task<IActionResult> DeleteSucursal(int id)
     {
-        var sucursal = await _context.Sucursales.FindAsync(id);
-        if (sucursal is null) return NotFound();
+        var entidad = await _context.Sucursales.FindAsync(id);
+        if (entidad == null) return NotFound();
 
-        _context.Sucursales.Remove(sucursal);
+        // Eliminación lógica
+        entidad.Activa = false;
         await _context.SaveChangesAsync();
+
         return NoContent();
     }
 }

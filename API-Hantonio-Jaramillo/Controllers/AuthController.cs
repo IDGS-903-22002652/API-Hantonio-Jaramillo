@@ -1,12 +1,15 @@
+
 using API_Hantonio_Jaramillo.Data;
 using API_Hantonio_Jaramillo.DTOs;
+using API_Hantonio_Jaramillo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Cryptography;
+using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Security.Cryptography;
 
 namespace API_Hantonio_Jaramillo.Controllers;
 
@@ -14,108 +17,114 @@ namespace API_Hantonio_Jaramillo.Controllers;
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
+    private readonly IConfiguration _config;
     private readonly AppDbContext _context;
-    private readonly IConfiguration _configuration;
 
-    public AuthController(AppDbContext context, IConfiguration configuration)
+    public AuthController(IConfiguration config, AppDbContext context)
     {
+        _config = config;
         _context = context;
-        _configuration = configuration;
     }
 
     [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] LoginRequest request)
+    public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
     {
         if (string.IsNullOrWhiteSpace(request.Login) || string.IsNullOrWhiteSpace(request.Password))
-        {
-            return BadRequest("Login y password son obligatorios.");
-        }
+            return BadRequest(new { message = "Login y password son requeridos." });
 
-        // Buscar usuario por login
+        var normalizedLogin = request.Login.Trim();
+
         var usuario = await _context.Usuarios
             .Include(u => u.Rol)
-            .FirstOrDefaultAsync(u => u.Login == request.Login && u.Activo);
+            .FirstOrDefaultAsync(u => u.Login == normalizedLogin && u.Activo);
 
         if (usuario is null)
-        {
-            return Unauthorized("Credenciales inválidas.");
-        }
+            return Unauthorized(new { message = "Credenciales inválidas." });
 
-        // Verificar contraseña
-        var hashedPassword = HashPassword(request.Password);
-        if (usuario.PasswordHash != hashedPassword)
-        {
-            return Unauthorized("Credenciales inválidas.");
-        }
+        var hashed = HashPassword(request.Password);
+        if (usuario.PasswordHash != hashed)
+            return Unauthorized(new { message = "Credenciales inválidas." });
 
-        // Actualizar último login
+        // actualizar ultimo_login
         usuario.UltimoLogin = DateTime.UtcNow;
         await _context.SaveChangesAsync();
 
-        // Generar token JWT
-        var token = GenerateJwtToken(usuario);
+        // Resolver nombre del rol: primero por navegación, si no existe, por IdRol
+        string? roleName = usuario.Rol?.Nombre;
+        if (string.IsNullOrWhiteSpace(roleName) && usuario.IdRol.HasValue)
+        {
+            roleName = await _context.Roles
+                .Where(r => r.IdRol == usuario.IdRol.Value)
+                .Select(r => r.Nombre)
+                .FirstOrDefaultAsync();
+        }
 
-        return Ok(new LoginResponse
+        roleName ??= string.Empty; // garantizar no-null
+
+        var expires = DateTime.UtcNow.AddHours(4);
+        var token = BuildToken(usuario.Login, roleName, _config, expires);
+
+        var response = new LoginResponse
         {
             Token = token,
-            Expiration = DateTime.UtcNow.AddMinutes(
-                double.Parse(_configuration["Jwt:ExpireMinutes"]!)),
+            Expiration = expires,
             Usuario = new UsuarioInfo
             {
                 IdUsuario = usuario.IdUsuario,
                 NombreCompleto = usuario.NombreCompleto,
                 Login = usuario.Login,
-                Rol = usuario.Rol?.Nombre
+                Rol = roleName
             }
-        });
-    }
-
-    [HttpPost("logout")]
-    public async Task<IActionResult> Logout([FromBody] LogoutRequest request)
-    {
-        var usuario = await _context.Usuarios.FindAsync(request.IdUsuario);
-        if (usuario is null)
-        {
-            return NotFound("Usuario no encontrado.");
-        }
-
-        usuario.UltimoLogout = DateTime.UtcNow;
-        await _context.SaveChangesAsync();
-
-        return Ok(new { message = "Sesión cerrada correctamente." });
-    }
-
-    private string GenerateJwtToken(Models.Usuario usuario)
-    {
-        var jwtSettings = _configuration.GetSection("Jwt");
-        var key = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(jwtSettings["Key"]!));
-        var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-        var claims = new[]
-        {
-            new Claim(ClaimTypes.NameIdentifier, usuario.IdUsuario.ToString()),
-            new Claim(ClaimTypes.Name, usuario.Login),
-            new Claim(ClaimTypes.GivenName, usuario.NombreCompleto ?? ""),
-            new Claim(ClaimTypes.Role, usuario.Rol?.Nombre ?? "Usuario"),
-            new Claim("IdSucursal", usuario.IdSucursal?.ToString() ?? "")
         };
 
+        return Ok(response);
+    }
+
+    private string BuildToken(string username, string role, IConfiguration config, DateTime expires)
+    {
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        // Normalizar role para que coincida con los atributos [Authorize]
+        var normalizedRole = role switch
+        {
+            "ADMIN" => "Administrador",
+            "ADMINISTRADOR" => "Administrador",
+            "EDITOR" => "Editor",
+            _ => role
+        };
+
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.NameIdentifier, username),
+            new Claim(ClaimTypes.Name, username),
+
+            // conservar la forma original por compatibilidad
+            new Claim(ClaimTypes.Role, role ?? string.Empty),
+        };
+
+        claims.Add(new Claim("role", role ?? string.Empty));
+        if (normalizedRole != role)
+        {
+            claims.Add(new Claim("role", normalizedRole ?? string.Empty));
+            claims.Add(new Claim(ClaimTypes.Role, normalizedRole ?? string.Empty));
+        }
+
+        claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+
         var token = new JwtSecurityToken(
-            issuer: jwtSettings["Issuer"],
-            audience: jwtSettings["Audience"],
+            issuer: config["Jwt:Issuer"],
+            audience: config["Jwt:Audience"],
             claims: claims,
-            expires: DateTime.UtcNow.AddMinutes(
-                double.Parse(jwtSettings["ExpireMinutes"]!)),
-            signingCredentials: credentials
-        );
+            expires: expires,
+            signingCredentials: creds);
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
     private static string HashPassword(string password)
     {
-        var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(password));
+        var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(password ?? string.Empty));
         return Convert.ToBase64String(bytes);
     }
 }

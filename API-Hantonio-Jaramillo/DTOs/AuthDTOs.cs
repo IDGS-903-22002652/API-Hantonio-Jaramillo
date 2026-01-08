@@ -25,3 +25,4 @@ public class UsuarioInfo
     public string? Login { get; set; }
     public string? Rol { get; set; }
 }
+

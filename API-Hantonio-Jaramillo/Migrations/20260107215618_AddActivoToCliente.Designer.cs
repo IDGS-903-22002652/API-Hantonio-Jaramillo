@@ -4,6 +4,7 @@ using API_Hantonio_Jaramillo.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_Hantonio_Jaramillo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260107215618_AddActivoToCliente")]
+    partial class AddActivoToCliente
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -287,13 +290,11 @@ namespace API_Hantonio_Jaramillo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMedida"));
 
                     b.Property<decimal?>("CCuello")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("c_cuello");
 
                     b.Property<decimal?>("CManga")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("c_manga");
 
                     b.Property<int>("IdOrden")
@@ -305,43 +306,35 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnName("observaciones_medidas");
 
                     b.Property<decimal?>("PCadera")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("p_cadera");
 
                     b.Property<decimal?>("PCintura")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("p_cintura");
 
                     b.Property<decimal?>("PLargo")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("p_largo");
 
                     b.Property<decimal?>("PTiro")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("p_tiro");
 
                     b.Property<decimal?>("SEstomago")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("s_estomago");
 
                     b.Property<decimal?>("SHombros")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("s_hombros");
 
                     b.Property<decimal?>("SLargoFrente")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("s_largo_frente");
 
                     b.Property<decimal?>("SPecho")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("s_pecho");
 
                     b.HasKey("IdMedida");
@@ -362,8 +355,7 @@ namespace API_Hantonio_Jaramillo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdOrden"));
 
                     b.Property<decimal?>("CostoTotal")
-                        .HasPrecision(10, 2)
-                        .HasColumnType("decimal(10,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("costo_total");
 
                     b.Property<DateTime?>("FechaCitaMedidas")
@@ -403,8 +395,7 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnName("incluye_camisa");
 
                     b.Property<decimal?>("MontoAbonado")
-                        .HasPrecision(10, 2)
-                        .HasColumnType("decimal(10,2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("monto_abonado");
 
                     b.HasKey("IdOrden");

@@ -1,3 +1,4 @@
+﻿
 using API_Hantonio_Jaramillo.Data;
 using API_Hantonio_Jaramillo.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -21,13 +22,18 @@ public class ClientesController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
     {
+        // Retornar TODOS los clientes (activos e inactivos)
         return await _context.Clientes.ToListAsync();
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Cliente>> GetCliente(int id)
     {
-        var cliente = await _context.Clientes.FindAsync(id);
+        // Ignorar filtros globales para poder obtener clientes inactivos cuando sea necesario
+        var cliente = await _context.Clientes
+            .IgnoreQueryFilters()
+            .FirstOrDefaultAsync(c => c.IdCliente == id);
+
         return cliente is null ? NotFound() : cliente;
     }
 
@@ -40,35 +46,26 @@ public class ClientesController : ControllerBase
         }
 
         cliente.FechaRegistro = DateTime.UtcNow;
+        cliente.Activo = true;
         _context.Clientes.Add(cliente);
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetCliente), new { id = cliente.IdCliente }, cliente);
     }
-
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateCliente(int id, Cliente cliente)
+    public async Task<IActionResult> UpdateCliente(int id, Cliente model)
     {
-        if (id != cliente.IdCliente)
-        {
-            return BadRequest("El ID no coincide.");
-        }
+        var entidad = await _context.Clientes.FindAsync(id);
+        if (entidad is null) return NotFound();
 
-        if (!await _context.Clientes.AnyAsync(c => c.IdCliente == id))
-        {
-            return NotFound();
-        }
+        // Actualizar todos los campos
+        entidad.NombreCompleto = model.NombreCompleto;
+        entidad.Telefono = model.Telefono;
+        entidad.Email = model.Email;
+        entidad.Ciudad = model.Ciudad;
+        entidad.Estado = model.Estado;
+        entidad.Activo = model.Activo; // ← Permite reactivar
 
-        _context.Entry(cliente).State = EntityState.Modified;
-
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            return Conflict("Error de concurrencia al actualizar.");
-        }
-
+        await _context.SaveChangesAsync();
         return NoContent();
     }
 
@@ -78,8 +75,11 @@ public class ClientesController : ControllerBase
         var cliente = await _context.Clientes.FindAsync(id);
         if (cliente is null) return NotFound();
 
-        _context.Clientes.Remove(cliente);
+        // Eliminación lógica: marcar como inactivo
+        cliente.Activo = false;
         await _context.SaveChangesAsync();
+
         return NoContent();
     }
+
 }

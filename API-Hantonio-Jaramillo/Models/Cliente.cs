@@ -33,6 +33,9 @@ public class Cliente
     [Column("fecha_registro")]
     public DateTime FechaRegistro { get; set; } = DateTime.Now;
 
+    [Column("activo")]
+    public bool Activo { get; set; } = true;
+
     // Navegación
     public ICollection<Orden> Ordenes { get; set; } = [];
 }

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +43,56 @@
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\logacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\logacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -63,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\cattipotraje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\cattipotraje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\catestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\catestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\migrations\\20251230052038_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,28 +139,12 @@
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\medidasorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\logacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\logacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20251230044020_AddLoginLogoutFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20251230044020_AddLoginLogoutFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\migrations\\20251223051841_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\migrations\\20251223051841_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\braya\\onedrive\\desktop\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{3B902123-F8A7-4915-9F01-361F908088D0}|",
@@ -138,22 +158,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 16,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Program.cs",
-              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T05:05:23.937Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -164,33 +170,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Program.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:05:23.937Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260107220526_updateclientes.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260107220526_updateclientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:05:26.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260107215754_ConfigurePrecisionForDecimals.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260107215754_ConfigurePrecisionForDecimals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T21:57:54.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260107215618_AddActivoToCliente.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260107215618_AddActivoToCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T21:56:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DebugController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DebugController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DebugController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DebugController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DebugController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T20:21:12.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:06:33.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthDTOs.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\AuthDTOs.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\AuthDTOs.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\AuthDTOs.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\AuthDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T19:49:33.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAhwGcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwBgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T19:48:12.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
@@ -198,24 +283,22 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-05T19:41:33.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T19:41:33.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "API-Hantonio-Jaramillo.http",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-05T19:36:40.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T19:36:40.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -223,12 +306,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T19:02:37.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T19:02:37.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "20251230052038_Initial.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20251230052038_Initial.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20251230052038_Initial.cs",
@@ -236,44 +318,43 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20251230052038_Initial.cs",
               "ViewState": "AgIAACsBAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:20:39.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:20:39.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "CatalogosController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\CatalogosController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\CatalogosController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\CatalogosController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\CatalogosController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAiwF4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:13:44.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "OrdenesController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\OrdenesController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\OrdenesController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\OrdenesController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\OrdenesController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAADgv20AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:13:39.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAADgv1QAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:13:34.029Z",
               "EditorCaption": ""
@@ -286,14 +367,14 @@
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\SucursalesController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\SucursalesController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\SucursalesController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAADgv1YAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:13:30.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\RolesController.cs",
@@ -301,12 +382,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\RolesController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAADgv18AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:13:25.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:13:25.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "DetalleCamisa.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
@@ -314,12 +394,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:13:13.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:13:13.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "DetalleSaco.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
@@ -327,12 +406,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:13:08.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:13:08.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "MedidasOrden.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
@@ -340,12 +418,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:13:01.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:13:01.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Orden.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Orden.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Orden.cs",
@@ -353,12 +430,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Orden.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAewD4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:12:53.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:12:53.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 15,
               "Title": "LogAcceso.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\LogAcceso.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\LogAcceso.cs",
@@ -371,20 +447,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Cliente.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Cliente.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:12:31.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "CatRecursosDiseno.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\CatRecursosDiseno.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\CatRecursosDiseno.cs",
@@ -392,12 +468,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\CatRecursosDiseno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:12:26.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:12:26.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "CatTipoTraje.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\CatTipoTraje.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\CatTipoTraje.cs",
@@ -405,12 +480,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\CatTipoTraje.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:12:22.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:12:22.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "CatEstatus.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\CatEstatus.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\CatEstatus.cs",
@@ -418,25 +492,24 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\CatEstatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T05:12:18.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T05:12:18.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "Sucursal.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T05:12:15.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 16,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Rol.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Rol.cs",
@@ -449,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "20251230044020_AddLoginLogoutFields.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20251230044020_AddLoginLogoutFields.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20251230044020_AddLoginLogoutFields.cs",
@@ -460,33 +533,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAADgv0kAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T04:35:20.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Usuario.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Usuario.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwBgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwDAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T04:35:01.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "20251223051841_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20251223051841_InitialCreate.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20251223051841_InitialCreate.cs",
@@ -494,12 +567,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20251223051841_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T05:18:41.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T05:18:41.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "API-Hantonio-Jaramillo.http",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
@@ -507,12 +579,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-23T05:14:20.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T05:14:20.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "API-Hantonio-Jaramillo.csproj",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
@@ -520,12 +591,11 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-23T05:06:14.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T05:06:14.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\appsettings.json",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\appsettings.json",
@@ -533,25 +603,24 @@
               "RelativeToolTip": "API-Hantonio-Jaramillo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-23T05:05:16.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T05:05:16.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\AppDbContext.cs",
               "RelativeToolTip": "API-Hantonio-Jaramillo\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T05:05:14.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 14,
               "Title": "API-Hantonio-Jaramillo",
               "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
               "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",

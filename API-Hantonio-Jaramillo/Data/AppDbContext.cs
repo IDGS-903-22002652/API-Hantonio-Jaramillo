@@ -35,5 +35,27 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<MedidasOrden>()
             .HasIndex(m => m.IdOrden)
             .IsUnique();
+
+        // Precisión para decimales en MedidasOrden
+        modelBuilder.Entity<MedidasOrden>(entity =>
+        {
+            entity.Property(m => m.CCuello).HasPrecision(5, 2);
+            entity.Property(m => m.CManga).HasPrecision(5, 2);
+            entity.Property(m => m.PCadera).HasPrecision(5, 2);
+            entity.Property(m => m.PCintura).HasPrecision(5, 2);
+            entity.Property(m => m.PLargo).HasPrecision(5, 2);
+            entity.Property(m => m.PTiro).HasPrecision(5, 2);
+            entity.Property(m => m.SEstomago).HasPrecision(5, 2);
+            entity.Property(m => m.SHombros).HasPrecision(5, 2);
+            entity.Property(m => m.SLargoFrente).HasPrecision(5, 2);
+            entity.Property(m => m.SPecho).HasPrecision(5, 2);
+        });
+
+        // Precisión para decimales en Orden
+        modelBuilder.Entity<Orden>(entity =>
+        {
+            entity.Property(o => o.CostoTotal).HasPrecision(10, 2);
+            entity.Property(o => o.MontoAbonado).HasPrecision(10, 2);
+        });
     }
 }
