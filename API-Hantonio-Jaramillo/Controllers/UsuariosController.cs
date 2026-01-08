@@ -8,7 +8,6 @@ using System.Text;
 
 namespace API_Hantonio_Jaramillo.Controllers;
 
-[Authorize(Roles = "Administrador")]
 [ApiController]
 [Route("api/[controller]")]
 public class UsuariosController : ControllerBase
