@@ -19,7 +19,6 @@ public class LogAcceso
     [Column("fecha_salida")]
     public DateTime? FechaSalida { get; set; }
 
-    // Navegación
     [ForeignKey("IdUsuario")]
     public Usuario? Usuario { get; set; }
 }

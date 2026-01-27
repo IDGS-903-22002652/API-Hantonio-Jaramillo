@@ -85,32 +85,16 @@ public class AuthController : ControllerBase
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-        // Normalizar role para que coincida con los atributos [Authorize]
-        var normalizedRole = role switch
-        {
-            "ADMIN" => "Administrador",
-            "ADMINISTRADOR" => "Administrador",
-            "EDITOR" => "Editor",
-            _ => role
-        };
-
+        // No normalices, usa el 'role' que viene directamente de la DB ("ADMIN")
         var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.NameIdentifier, username),
-            new Claim(ClaimTypes.Name, username),
-
-            // conservar la forma original por compatibilidad
-            new Claim(ClaimTypes.Role, role ?? string.Empty),
-        };
-
-        claims.Add(new Claim("role", role ?? string.Empty));
-        if (normalizedRole != role)
-        {
-            claims.Add(new Claim("role", normalizedRole ?? string.Empty));
-            claims.Add(new Claim(ClaimTypes.Role, normalizedRole ?? string.Empty));
-        }
-
-        claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+    {
+        new Claim(ClaimTypes.NameIdentifier, username),
+        new Claim(ClaimTypes.Name, username),
+        // IMPORTANTE: Usamos ClaimTypes.Role para que coincida con RoleClaimType en Program.cs
+        new Claim(ClaimTypes.Role, role),
+        new Claim("role", role), // Por si acaso para el frontend
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+    };
 
         var token = new JwtSecurityToken(
             issuer: config["Jwt:Issuer"],

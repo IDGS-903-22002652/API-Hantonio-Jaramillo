@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API_Hantonio_Jaramillo.Controllers;
 
-[Authorize(Roles = "Administrador")]
+[Authorize(Roles = "ADMIN")]
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/[controller]")] 
 public class RolesController : ControllerBase
 {
     private readonly AppDbContext _context;

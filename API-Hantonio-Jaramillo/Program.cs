@@ -54,7 +54,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(key),
 
         // <- Asegura que el middleware use la claim "role" del JWT como rol
-        RoleClaimType = "role",
+        RoleClaimType = ClaimTypes.Role,
         NameClaimType = ClaimTypes.Name
     };
 });
