@@ -1,49 +1,54 @@
-using System.ComponentModel.DataAnnotations;
+ï»¿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-namespace API_Hantonio_Jaramillo.Models;
-
-[Table("USUARIO")]
-public class Usuario
+namespace API_Hantonio_Jaramillo.Models
 {
-    [Key]
-    [Column("id_usuario")]
-    public int IdUsuario { get; set; }
+    [Table("Usuario")]
+    public class Usuario
+    {
+        [Key]
+        [Column("IdUsuario")]
+        public int IdUsuario { get; set; }
 
-    [Column("id_rol")]
-    public int? IdRol { get; set; }
+        [Column("IdRol")]
+        public int IdRol { get; set; }
 
-    [Column("id_sucursal")]
-    public int? IdSucursal { get; set; }
+        [Column("IdSucursal")]
+        public int? IdSucursal { get; set; }
 
-    [Column("nombre_completo")]
-    [MaxLength(150)]
-    public string? NombreCompleto { get; set; }
+        [Required]
+        [Column("NombreCompleto")]
+        [MaxLength(150)]
+        public string NombreCompleto { get; set; } = string.Empty;
 
-    [Column("login")]
-    [MaxLength(50)]
-    public string Login { get; set; } = string.Empty;
+        [Column("NombreUsuario")]
+        [MaxLength(50)]
+        public string NombreUsuario { get; set; } = string.Empty;
 
-    [Column("password_hash")]
-    [MaxLength(255)]
-    public string PasswordHash { get; set; } = string.Empty;
+        [Column("Email")]
+        [MaxLength(100)]
+        public string? Email { get; set; }
 
-    [Column("activo")]
-    public bool Activo { get; set; } = true;
+        [Column("PasswordHash")]
+        [MaxLength(255)]
+        public string PasswordHash { get; set; } = string.Empty;
 
-    [Column("ultimo_login")]
-    public DateTime? UltimoLogin { get; set; }
+        [Column("Estatus")]
+        public bool Estatus { get; set; } = true;
 
-    [Column("ultimo_logout")]
-    public DateTime? UltimoLogout { get; set; }
+        [Column("UltimoLogin")]
+        public DateTime? UltimoLogin { get; set; }
 
-    // Navegación
-    [ForeignKey("IdRol")]
-    public Rol? Rol { get; set; }
+        [Column("UltimoLogout")]
+        public DateTime? UltimoLogout { get; set; }
 
-    [ForeignKey("IdSucursal")]
-    public Sucursal? Sucursal { get; set; }
+        [ForeignKey("IdRol")]
+        [JsonIgnore]
+        public virtual Rol? Rol { get; set; }
 
-    public ICollection<LogAcceso> LogAccesos { get; set; } = [];
-    public ICollection<Orden> OrdenesCreadas { get; set; } = [];
-}   
+        [ForeignKey("IdSucursal")]
+        [JsonIgnore] 
+        public virtual Sucursal? Sucursal { get; set; }
+    }
+}

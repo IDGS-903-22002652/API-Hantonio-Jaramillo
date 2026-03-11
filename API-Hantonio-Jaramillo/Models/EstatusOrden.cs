@@ -4,19 +4,20 @@ using System.Text.Json.Serialization;
 
 namespace API_Hantonio_Jaramillo.Models
 {
-    [Table("Rol")]
-    public class Rol
+    [Table("EstatusOrden")]
+    public class EstatusOrden
     {
         [Key]
-        [Column("IdRol")]
-        public int IdRol { get; set; }
+        [Column("IdEstatus")]
+        public int IdEstatus { get; set; }
 
         [Required]
-        [Column("Nombre")]
+        [Column("Descripcion")]
         [MaxLength(50)]
-        public string Nombre { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+
         // Navegación
         [JsonIgnore]
-        public ICollection<Usuario> Usuarios { get; set; } = [];
+        public ICollection<Orden> Ordenes { get; set; } = [];
     }
 }

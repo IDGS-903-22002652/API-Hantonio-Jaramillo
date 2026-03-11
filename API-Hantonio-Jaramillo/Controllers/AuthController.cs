@@ -1,15 +1,14 @@
-
-using API_Hantonio_Jaramillo.Data;
+锘縰sing API_Hantonio_Jaramillo.Data;
 using API_Hantonio_Jaramillo.DTOs;
 using API_Hantonio_Jaramillo.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using System.Security.Cryptography;
+using System.Text;
 
 namespace API_Hantonio_Jaramillo.Controllers;
 
@@ -18,9 +17,9 @@ namespace API_Hantonio_Jaramillo.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly IConfiguration _config;
-    private readonly AppDbContext _context;
+    private readonly ApplicationDbContext _context; // Cambiado al nuevo Context
 
-    public AuthController(IConfiguration config, AppDbContext context)
+    public AuthController(IConfiguration config, ApplicationDbContext context)
     {
         _config = config;
         _context = context;
@@ -29,42 +28,40 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
     {
-        if (string.IsNullOrWhiteSpace(request.Login) || string.IsNullOrWhiteSpace(request.Password))
-            return BadRequest(new { message = "Login y password son requeridos." });
+        // Usamos NombreUsuario en lugar de Login para coincidir con el nuevo DTO/Modelo
+        if (string.IsNullOrWhiteSpace(request.NombreUsuario) || string.IsNullOrWhiteSpace(request.Password))
+            return BadRequest(new { message = "Usuario y password son requeridos." });
 
-        var normalizedLogin = request.Login.Trim();
+        var normalizedLogin = request.NombreUsuario.Trim();
 
+        // Buscamos por NombreUsuario y verificamos Estatus (bool)
         var usuario = await _context.Usuarios
             .Include(u => u.Rol)
-            .FirstOrDefaultAsync(u => u.Login == normalizedLogin && u.Activo);
+            .Include(u => u.Sucursal) // Incluimos sucursal para el Response
+            .FirstOrDefaultAsync(u => u.NombreUsuario == normalizedLogin && u.Estatus);
 
         if (usuario is null)
-            return Unauthorized(new { message = "Credenciales inv醠idas." });
+            return Unauthorized(new { message = "Credenciales inv谩lidas." });
 
+        // Verificaci贸n de Hash
         var hashed = HashPassword(request.Password);
         if (usuario.PasswordHash != hashed)
-            return Unauthorized(new { message = "Credenciales inv醠idas." });
+            return Unauthorized(new { message = "Credenciales inv谩lidas." });
 
-        // actualizar ultimo_login
-        usuario.UltimoLogin = DateTime.UtcNow;
+        // Actualizar 煤ltimo login
+        usuario.UltimoLogin = DateTime.Now;
         await _context.SaveChangesAsync();
 
-        // Resolver nombre del rol: primero por navegaci髇, si no existe, por IdRol
-        string? roleName = usuario.Rol?.Nombre;
-        if (string.IsNullOrWhiteSpace(roleName) && usuario.IdRol.HasValue)
-        {
-            roleName = await _context.Roles
-                .Where(r => r.IdRol == usuario.IdRol.Value)
-                .Select(r => r.Nombre)
-                .FirstOrDefaultAsync();
-        }
+        // Obtener nombre del rol
+        string roleName = usuario.Rol?.Nombre ?? "Empleado";
 
-        roleName ??= string.Empty; // garantizar no-null
+        // Configuraci贸n de expiraci贸n desde appsettings o default 60 min
+        var expireMinutes = double.Parse(_config["Jwt:ExpireMinutes"] ?? "60");
+        var expires = DateTime.Now.AddMinutes(expireMinutes);
 
-        var expires = DateTime.UtcNow.AddHours(4);
-        var token = BuildToken(usuario.Login, roleName, _config, expires);
+        var token = BuildToken(usuario.NombreUsuario, roleName, usuario.IdSucursal.ToString(), expires);
 
-        var response = new LoginResponse
+        return Ok(new LoginResponse
         {
             Token = token,
             Expiration = expires,
@@ -72,33 +69,55 @@ public class AuthController : ControllerBase
             {
                 IdUsuario = usuario.IdUsuario,
                 NombreCompleto = usuario.NombreCompleto,
-                Login = usuario.Login,
-                Rol = roleName
+                NombreUsuario = usuario.NombreUsuario,
+                Rol = roleName,
+                IdSucursal = usuario.IdSucursal,
+                NombreSucursal = usuario.Sucursal?.Nombre
             }
-        };
-
-        return Ok(response);
+        });
     }
 
-    private string BuildToken(string username, string role, IConfiguration config, DateTime expires)
+    [HttpPost("logout")]
+    [Authorize] // Solo un usuario logueado puede cerrar sesi贸n
+    public async Task<IActionResult> Logout()
     {
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!));
+        // 1. Obtener el NombreUsuario del Token (Claim)
+        var nombreUsuario = User.Identity?.Name;
+
+        if (string.IsNullOrEmpty(nombreUsuario))
+            return BadRequest("No se pudo identificar al usuario.");
+
+        // 2. Buscar al usuario en la base de datos
+        var usuario = await _context.Usuarios
+            .FirstOrDefaultAsync(u => u.NombreUsuario == nombreUsuario);
+
+        if (usuario != null)
+        {
+            // 3. Registrar la fecha de salida
+            usuario.UltimoLogout = DateTime.Now;
+            await _context.SaveChangesAsync();
+        }
+
+        return Ok(new { message = "Cierre de sesi贸n registrado exitosamente." });
+    }
+
+    private string BuildToken(string username, string role, string? sucursalId, DateTime expires)
+    {
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-        // No normalices, usa el 'role' que viene directamente de la DB ("ADMIN")
         var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, username),
-        new Claim(ClaimTypes.Name, username),
-        // IMPORTANTE: Usamos ClaimTypes.Role para que coincida con RoleClaimType en Program.cs
-        new Claim(ClaimTypes.Role, role),
-        new Claim("role", role), // Por si acaso para el frontend
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-    };
+        {
+            new Claim(ClaimTypes.NameIdentifier, username),
+            new Claim(ClaimTypes.Name, username),
+            new Claim(ClaimTypes.Role, role),
+            new Claim("IdSucursal", sucursalId ?? "0"),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        };
 
         var token = new JwtSecurityToken(
-            issuer: config["Jwt:Issuer"],
-            audience: config["Jwt:Audience"],
+            issuer: _config["Jwt:Issuer"],
+            audience: _config["Jwt:Audience"],
             claims: claims,
             expires: expires,
             signingCredentials: creds);

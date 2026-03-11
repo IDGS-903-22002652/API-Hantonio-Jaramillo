@@ -1,34 +1,40 @@
-using System.ComponentModel.DataAnnotations;
+ï»¿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace API_Hantonio_Jaramillo.Models;
 
-[Table("SUCURSAL")]
+[Table("Sucursal")]
 public class Sucursal
 {
     [Key]
-    [Column("id_sucursal")]
+    [Column("IdSucursal")]
     public int IdSucursal { get; set; }
 
-    [Column("nombre")]
+    [Required] 
+    [Column("Nombre")]
     [MaxLength(100)]
     public string Nombre { get; set; } = string.Empty;
 
-    [Column("direccion")]
+    [Column("Direccion")]
     public string? Direccion { get; set; }
 
-    [Column("telefono")]
+    [Column("Telefono")]
     [MaxLength(20)]
     public string? Telefono { get; set; }
 
-    [Column("encargado")]
-    [MaxLength(100)]
-    public string? Encargado { get; set; }
+    [Column("IdUsuario")]
+    public int? IdUsuario { get; set; }
 
-    [Column("activa")]
-    public bool Activa { get; set; } = true;
+    [ForeignKey("IdUsuario")]
+    public virtual Usuario? Usuario { get; set; }
 
-    // Navegación
+    [Column("Estatus")]
+    public bool Estatus { get; set; } = true;
+
+    [JsonIgnore] 
     public ICollection<Usuario> Usuarios { get; set; } = [];
+
+    [JsonIgnore] 
     public ICollection<Orden> Ordenes { get; set; } = [];
 }

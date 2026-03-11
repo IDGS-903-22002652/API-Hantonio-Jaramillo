@@ -1,8 +1,7 @@
-namespace API_Hantonio_Jaramillo.DTOs;
-
+﻿namespace API_Hantonio_Jaramillo.DTOs;
 public class LoginRequest
 {
-    public string Login { get; set; } = string.Empty;
+    public string NombreUsuario { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
 }
 
@@ -22,7 +21,9 @@ public class UsuarioInfo
 {
     public int IdUsuario { get; set; }
     public string? NombreCompleto { get; set; }
-    public string? Login { get; set; }
+    public string? NombreUsuario { get; set; }
+    public string? Email { get; set; }
     public string? Rol { get; set; }
+    public int? IdSucursal { get; set; }
+    public string? NombreSucursal { get; set; }
 }
-

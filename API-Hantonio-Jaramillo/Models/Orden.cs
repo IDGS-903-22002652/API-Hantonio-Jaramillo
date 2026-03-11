@@ -1,65 +1,72 @@
-using System.ComponentModel.DataAnnotations;
+ï»¿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API_Hantonio_Jaramillo.Models;
-
-[Table("ORDEN")]
-public class Orden
+namespace API_Hantonio_Jaramillo.Models
 {
-    [Key]
-    [Column("id_orden")]
-    public int IdOrden { get; set; }
+    [Table("Orden")]
+    public class Orden
+    {
+        [Key]
+        [Column("IdOrden")]
+        public int IdOrden { get; set; }
 
-    [Column("id_cliente")]
-    public int? IdCliente { get; set; }
+        [Column("IdCliente")]
+        public int IdCliente { get; set; }
 
-    [Column("id_usuario_creador")]
-    public int? IdUsuarioCreador { get; set; }
+        [Column("IdUsuario")]
+        public int IdUsuario { get; set; }
 
-    [Column("id_sucursal")]
-    public int? IdSucursal { get; set; }
+        [Column("IdSucursal")]
+        public int IdSucursal { get; set; }
 
-    [Column("id_tipo_traje")]
-    public int? IdTipoTraje { get; set; }
+        [Column("IdTipoTraje")]
+        public int IdTipoTraje { get; set; }
 
-    [Column("id_estatus")]
-    public int? IdEstatus { get; set; }
+        [Column("IdEstatus")]
+        public int IdEstatus { get; set; }
 
-    [Column("fecha_creacion")]
-    public DateTime FechaCreacion { get; set; } = DateTime.Now;
+        [Column("FechaCreacion")]
+        public DateTime FechaCreacion { get; set; } = DateTime.Now;
 
-    [Column("fecha_cita_medidas")]
-    public DateTime? FechaCitaMedidas { get; set; }
+        [Column("FechaCitaMedidas")]
+        public DateTime? FechaCitaMedidas { get; set; }
 
-    [Column("fecha_evento_entrega")]
-    public DateTime? FechaEventoEntrega { get; set; }
+        [Column("FechaEventoEntrega")]
+        public DateTime? FechaEventoEntrega { get; set; }
 
-    [Column("costo_total")]
-    public decimal? CostoTotal { get; set; }
+        [Column("CostoTotal")]
+        public decimal CostoTotal { get; set; }
 
-    [Column("monto_abonado")]
-    public decimal? MontoAbonado { get; set; }
+        [Column("MontoAbonado")]
+        public decimal MontoAbonado { get; set; }
 
-    [Column("incluye_camisa")]
-    public bool IncluyeCamisa { get; set; } = false;
+        [Column("MetodoPago")]
+        public string? MetodoPago { get; set; }
 
-    // Navegación
-    [ForeignKey("IdCliente")]
-    public Cliente? Cliente { get; set; }
+        [ForeignKey("IdUsuario")]
+        public virtual Usuario? Usuario { get; set; }
 
-    [ForeignKey("IdUsuarioCreador")]
-    public Usuario? UsuarioCreador { get; set; }
+        [ForeignKey("IdCliente")]
+        public virtual Cliente? Cliente { get; set; }
 
-    [ForeignKey("IdSucursal")]
-    public Sucursal? Sucursal { get; set; }
+        [ForeignKey("IdSucursal")]
+        public virtual Sucursal? Sucursal { get; set; }
 
-    [ForeignKey("IdTipoTraje")]
-    public CatTipoTraje? TipoTraje { get; set; }
+        [ForeignKey("IdEstatus")]
+        public virtual EstatusOrden? EstatusOrden { get; set; }
 
-    [ForeignKey("IdEstatus")]
-    public CatEstatus? Estatus { get; set; }
+        [ForeignKey("IdTipoTraje")]
+        public virtual TipoTraje? TipoTraje { get; set; }
 
-    public MedidasOrden? MedidasOrden { get; set; }
-    public DetalleSaco? DetalleSaco { get; set; }
-    public DetalleCamisa? DetalleCamisa { get; set; }
+        [InverseProperty("Orden")]
+        public virtual MedidasOrden? Medidas { get; set; }
+        [InverseProperty("Orden")]
+        public virtual DetalleSaco? DetalleSaco { get; set; }
+        [InverseProperty("Orden")]
+        public virtual DetallePantalon? DetallePantalon { get; set; }
+        [InverseProperty("Orden")]
+        public virtual DetalleChaleco? DetalleChaleco { get; set; }
+        [InverseProperty("Orden")]
+        public virtual DetalleCamisa? DetalleCamisa { get; set; }
+    }
 }

@@ -1,41 +1,48 @@
-using System.ComponentModel.DataAnnotations;
+ï»¿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-namespace API_Hantonio_Jaramillo.Models;
-
-[Table("CLIENTE")]
-public class Cliente
+namespace API_Hantonio_Jaramillo.Models
 {
-    [Key]
-    [Column("id_cliente")]
-    public int IdCliente { get; set; }
+    [Table("Cliente")]
 
-    [Column("nombre_completo")]
-    [MaxLength(150)]
-    public string NombreCompleto { get; set; } = string.Empty;
+    public class Cliente
+    {
+        [Key]
+        [Column("IdCliente")]
+        public int IdCliente { get; set; }
 
-    [Column("telefono")]
-    [MaxLength(20)]
-    public string? Telefono { get; set; }
+        [Required]
+        [Column("NombreCompleto")]
+        [MaxLength(150)]
+        public string NombreCompleto { get; set; } = string.Empty;
 
-    [Column("email")]
-    [MaxLength(100)]
-    public string? Email { get; set; }
+        [Column("Telefono")]
+        [MaxLength(20)]
+        public string? Telefono { get; set; }
 
-    [Column("ciudad")]
-    [MaxLength(50)]
-    public string? Ciudad { get; set; }
+        [Column("Email")]
+        [MaxLength(100)]
+        public string? Email { get; set; }
 
-    [Column("estado")]
-    [MaxLength(50)]
-    public string? Estado { get; set; }
+        [Column("Ciudad")]
+        [MaxLength(50)]
+        public string? Ciudad { get; set; }
 
-    [Column("fecha_registro")]
-    public DateTime FechaRegistro { get; set; } = DateTime.Now;
+        [Column("Estado")]
+        [MaxLength(50)]
+        public string? Estado { get; set; }
 
-    [Column("activo")]
-    public bool Activo { get; set; } = true;
+        [Column("FechaNacimiento")]
+        public DateTime? FechaNacimiento { get; set; }
 
-    // Navegación
-    public ICollection<Orden> Ordenes { get; set; } = [];
+        [Column("FechaRegistro")]
+        public DateTime FechaRegistro { get; set; } = DateTime.Now;
+
+        [Column("Estatus")]
+        public bool Estatus { get; set; } = true;
+
+        [JsonIgnore]
+        public ICollection<Orden> Ordenes { get; set; } = [];
+    }
 }

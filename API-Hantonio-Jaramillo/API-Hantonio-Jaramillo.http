@@ -1,19 +1,2 @@
 @API_Hantonio_Jaramillo_HostAddress = http://localhost:5213
 
-### Obtener todos los usuarios
-GET {{API_Hantonio_Jaramillo_HostAddress}}/api/usuarios
-Accept: application/json
-
-###
-
-### Obtener todos los clientes
-GET {{API_Hantonio_Jaramillo_HostAddress}}/api/clientes
-Accept: application/json
-
-###
-
-### Obtener todas las sucursales
-GET {{API_Hantonio_Jaramillo_HostAddress}}/api/sucursales
-Accept: application/json
-
-###
