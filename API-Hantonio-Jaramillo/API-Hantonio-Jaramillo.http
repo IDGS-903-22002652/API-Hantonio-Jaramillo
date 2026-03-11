@@ -1,6 +1,2 @@
 @API_Hantonio_Jaramillo_HostAddress = http://localhost:5213
 
-GET {{API_Hantonio_Jaramillo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
