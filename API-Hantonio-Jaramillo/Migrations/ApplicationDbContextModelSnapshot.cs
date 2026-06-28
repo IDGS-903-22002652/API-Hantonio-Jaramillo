@@ -122,6 +122,11 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("nvarchar(10)")
                         .HasColumnName("Iniciales");
 
+                    b.Property<string>("NumeroProduccion")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)")
+                        .HasColumnName("NumeroProduccion");
+
                     b.Property<string>("Observaciones")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Observaciones");
@@ -131,19 +136,34 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("OpcionCamisa");
 
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
+
                     b.Property<string>("PlieguesFrontales")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("PlieguesFrontales");
 
+                    b.Property<string>("PosicionContraste")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("PosicionContraste");
+
                     b.Property<decimal>("PrecioCamisa")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("PrecioCamisa");
+
+                    b.Property<string>("SolapaBolsillo")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("SolapaBolsillo");
 
                     b.HasKey("IdDetalleCamisa");
 
                     b.HasIndex("IdOrden")
                         .IsUnique();
+
+                    b.HasIndex("OrdenIdOrden");
 
                     b.ToTable("DetalleCamisa");
                 });
@@ -191,9 +211,17 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("int")
                         .HasColumnName("IdOrden");
 
+                    b.Property<string>("NumeroProduccion")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)")
+                        .HasColumnName("NumeroProduccion");
+
                     b.Property<string>("Observaciones")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Observaciones");
+
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("PrecioChaleco")
                         .HasColumnType("decimal(18,2)")
@@ -208,6 +236,8 @@ namespace API_Hantonio_Jaramillo.Migrations
 
                     b.HasIndex("IdOrden")
                         .IsUnique();
+
+                    b.HasIndex("OrdenIdOrden");
 
                     b.ToTable("DetalleChaleco");
                 });
@@ -265,9 +295,17 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("int")
                         .HasColumnName("IdOrden");
 
+                    b.Property<string>("NumeroProduccion")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)")
+                        .HasColumnName("NumeroProduccion");
+
                     b.Property<string>("Observaciones")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Observaciones");
+
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("PrecioPantalon")
                         .HasColumnType("decimal(18,2)")
@@ -277,6 +315,8 @@ namespace API_Hantonio_Jaramillo.Migrations
 
                     b.HasIndex("IdOrden")
                         .IsUnique();
+
+                    b.HasIndex("OrdenIdOrden");
 
                     b.ToTable("DetallePantalon");
                 });
@@ -349,9 +389,17 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("Monograma");
 
+                    b.Property<string>("NumeroProduccion")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)")
+                        .HasColumnName("NumeroProduccion");
+
                     b.Property<string>("Observaciones")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Observaciones");
+
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("PrecioSaco")
                         .HasColumnType("decimal(18,2)")
@@ -367,7 +415,53 @@ namespace API_Hantonio_Jaramillo.Migrations
                     b.HasIndex("IdOrden")
                         .IsUnique();
 
+                    b.HasIndex("OrdenIdOrden");
+
                     b.ToTable("DetalleSaco");
+                });
+
+            modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetalleZapato", b =>
+                {
+                    b.Property<int>("IdDetalleZapato")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("IdDetalleZapato");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDetalleZapato"));
+
+                    b.Property<string>("EstiloZapato")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("EstiloZapato");
+
+                    b.Property<int>("IdOrden")
+                        .HasColumnType("int")
+                        .HasColumnName("IdOrden");
+
+                    b.Property<string>("NumeroProduccion")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)")
+                        .HasColumnName("NumeroProduccion");
+
+                    b.Property<string>("Observaciones")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Observaciones");
+
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("PrecioZapato")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PrecioZapato");
+
+                    b.HasKey("IdDetalleZapato");
+
+                    b.HasIndex("IdOrden")
+                        .IsUnique();
+
+                    b.HasIndex("OrdenIdOrden");
+
+                    b.ToTable("DetalleZapatos");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.EstatusOrden", b =>
@@ -393,23 +487,78 @@ namespace API_Hantonio_Jaramillo.Migrations
                         new
                         {
                             IdEstatus = 1,
-                            Descripcion = "Pendiente de medidas"
+                            Descripcion = "Nueva orden"
                         },
                         new
                         {
                             IdEstatus = 2,
-                            Descripcion = "Toma de medidas"
+                            Descripcion = "En revisión"
                         },
                         new
                         {
                             IdEstatus = 3,
-                            Descripcion = "En confección"
+                            Descripcion = "Pendiente de medidas"
                         },
                         new
                         {
                             IdEstatus = 4,
+                            Descripcion = "Medidas registradas"
+                        },
+                        new
+                        {
+                            IdEstatus = 5,
+                            Descripcion = "Autorizado para producción"
+                        },
+                        new
+                        {
+                            IdEstatus = 6,
+                            Descripcion = "En confección"
+                        },
+                        new
+                        {
+                            IdEstatus = 7,
+                            Descripcion = "Listo para entrega"
+                        },
+                        new
+                        {
+                            IdEstatus = 8,
                             Descripcion = "Entregado"
+                        },
+                        new
+                        {
+                            IdEstatus = 9,
+                            Descripcion = "Cancelado"
                         });
+                });
+
+            modelBuilder.Entity("API_Hantonio_Jaramillo.Models.Finanza", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("CostoInversion")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("GananciaNeta")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("ROI")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Finanzas");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.MedidasOrden", b =>
@@ -421,100 +570,288 @@ namespace API_Hantonio_Jaramillo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMedida"));
 
+                    b.Property<decimal?>("AlTerrillaPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AlTerrillaPantalon");
+
                     b.Property<decimal?>("Altura")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("Altura");
 
-                    b.Property<decimal?>("CamisaCuello")
+                    b.Property<decimal?>("AlturaCinturaDPantalon")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("CamisaCuello");
+                        .HasColumnName("AlturaCinturaDPantalon");
 
-                    b.Property<decimal?>("CamisaManga")
+                    b.Property<decimal?>("AlturaCinturaTPantalon")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("CamisaManga");
+                        .HasColumnName("AlturaCinturaTPantalon");
+
+                    b.Property<decimal?>("AnchoEmpeineZapato")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AnchoEmpeineZapato");
+
+                    b.Property<decimal?>("AnchoTraseroCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AnchoTraseroCamisa");
+
+                    b.Property<decimal?>("AnchoTraseroSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AnchoTraseroSaco");
+
+                    b.Property<decimal?>("AntebrazoCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AntebrazoCamisa");
+
+                    b.Property<decimal?>("AntebrazoSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("AntebrazoSaco");
+
+                    b.Property<decimal?>("BicepsCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("BicepsCamisa");
+
+                    b.Property<decimal?>("BicepsSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("BicepsSaco");
+
+                    b.Property<decimal?>("BrazaletePantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("BrazaletePantalon");
+
+                    b.Property<decimal?>("CaderaPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CaderaPantalon");
+
+                    b.Property<decimal?>("CaderasCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CaderasCamisa");
+
+                    b.Property<decimal?>("CaderasChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CaderasChaleco");
+
+                    b.Property<decimal?>("CaderasSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CaderasSaco");
+
+                    b.Property<decimal?>("CinturaPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CinturaPantalon");
+
+                    b.Property<decimal?>("CollarCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CollarCamisa");
+
+                    b.Property<decimal?>("CollarChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CollarChaleco");
+
+                    b.Property<decimal?>("CollarSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("CollarSaco");
+
+                    b.Property<decimal?>("EntrepiernaPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("EntrepiernaPantalon");
+
+                    b.Property<decimal?>("EstomagoCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("EstomagoCamisa");
+
+                    b.Property<decimal?>("EstomagoChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("EstomagoChaleco");
+
+                    b.Property<decimal?>("EstomagoSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("EstomagoSaco");
+
+                    b.Property<decimal?>("HombroDelanteroCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("HombroDelanteroCamisa");
+
+                    b.Property<decimal?>("HombroDelanteroSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("HombroDelanteroSaco");
+
+                    b.Property<decimal?>("HombrosCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("HombrosCamisa");
+
+                    b.Property<decimal?>("HombrosSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("HombrosSaco");
 
                     b.Property<int>("IdOrden")
                         .HasColumnType("int")
                         .HasColumnName("IdOrden");
 
-                    b.Property<decimal?>("PantCadera")
+                    b.Property<decimal?>("LargoPieZapato")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantCadera");
+                        .HasColumnName("LargoPieZapato");
 
-                    b.Property<decimal?>("PantCintura")
+                    b.Property<decimal?>("LongitudCinturaDChaleco")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantCintura");
+                        .HasColumnName("LongitudCinturaDChaleco");
 
-                    b.Property<decimal?>("PantLargoDer")
+                    b.Property<decimal?>("LongitudCinturaDelantera")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantLargoDer");
+                        .HasColumnName("LongitudCinturaDelanteraSaco");
 
-                    b.Property<decimal?>("PantLargoIzq")
+                    b.Property<decimal?>("LongitudCinturaDelanteraCamisa")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantLargoIzq");
+                        .HasColumnName("LongitudCinturaDelanteraCamisa");
 
-                    b.Property<decimal?>("PantMuslo")
+                    b.Property<decimal?>("LongitudDPantalon")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantMuslo");
+                        .HasColumnName("LongitudDPantalon");
 
-                    b.Property<decimal?>("PantTiro")
+                    b.Property<decimal?>("LongitudEspaldaCamisa")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("PantTiro");
+                        .HasColumnName("LongitudEspaldaCamisa");
+
+                    b.Property<decimal?>("LongitudEspaldaChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudEspaldaChaleco");
+
+                    b.Property<decimal?>("LongitudEspaldaSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudEspaldaSaco");
+
+                    b.Property<decimal?>("LongitudFrontalCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudFrontalCamisa");
+
+                    b.Property<decimal?>("LongitudFrontalChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudFrontalChaleco");
+
+                    b.Property<decimal?>("LongitudFrontalSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudFrontalSaco");
+
+                    b.Property<decimal?>("LongitudIPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudIPantalon");
+
+                    b.Property<decimal?>("LongitudMangaDCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudMangaDCamisa");
+
+                    b.Property<decimal?>("LongitudMangaDSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudMangaDSaco");
+
+                    b.Property<decimal?>("LongitudMangaICamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudMangaICamisa");
+
+                    b.Property<decimal?>("LongitudMangaISaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("LongitudMangaISaco");
+
+                    b.Property<decimal?>("MusloPantalon")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("MusloPantalon");
+
+                    b.Property<decimal?>("MuñecaCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("MuñecaCamisa");
+
+                    b.Property<decimal?>("MuñecaSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("MuñecaSaco");
+
+                    b.Property<decimal?>("NucaCinturaCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("NucaCinturaCamisa");
+
+                    b.Property<decimal?>("NucaCinturaChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("NucaCinturaChaleco");
+
+                    b.Property<decimal?>("NucaCinturaSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("NucaCinturaSaco");
+
+                    b.Property<int?>("OrdenIdOrden")
+                        .HasColumnType("int");
+
+                    b.Property<decimal?>("PechoCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoCamisa");
+
+                    b.Property<decimal?>("PechoChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoChaleco");
+
+                    b.Property<decimal?>("PechoDelanteroCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoDelanteroCamisa");
+
+                    b.Property<decimal?>("PechoDelanteroChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoDelanteroChaleco");
+
+                    b.Property<decimal?>("PechoDelanteroSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoDelanteroSaco");
+
+                    b.Property<decimal?>("PechoSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("PechoSaco");
 
                     b.Property<decimal?>("Peso")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("Peso");
 
-                    b.Property<decimal?>("SacoBiceps")
+                    b.Property<decimal?>("PosicionPrimerBCamisa")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoBiceps");
+                        .HasColumnName("PosicionPrimerBCamisa");
 
-                    b.Property<decimal?>("SacoCadera")
+                    b.Property<decimal?>("PosicionPrimerBChaleco")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoCadera");
+                        .HasColumnName("PosicionPrimerBChaleco");
 
-                    b.Property<decimal?>("SacoEstomago")
+                    b.Property<decimal?>("PosicionPrimerBSaco")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoEstomago");
+                        .HasColumnName("PosicionPrimerBSaco");
 
-                    b.Property<decimal?>("SacoHombros")
+                    b.Property<decimal?>("RodillaPantalon")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoHombros");
+                        .HasColumnName("RodillaPantalon");
 
-                    b.Property<decimal?>("SacoLargoEspalda")
+                    b.Property<decimal?>("TallaZapato")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoLargoEspalda");
-
-                    b.Property<decimal?>("SacoLargoFrente")
-                        .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoLargoFrente");
-
-                    b.Property<decimal?>("SacoMangaDer")
-                        .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoMangaDer");
-
-                    b.Property<decimal?>("SacoMangaIzq")
-                        .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoMangaIzq");
-
-                    b.Property<decimal?>("SacoPecho")
-                        .HasColumnType("decimal(18,2)")
-                        .HasColumnName("SacoPecho");
-
-                    b.Property<string>("TallaZapato")
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)")
                         .HasColumnName("TallaZapato");
+
+                    b.Property<decimal?>("TamañoInferiorChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("TamañoInferiorChaleco");
 
                     b.Property<string>("TipoFit")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("TipoFit");
 
+                    b.Property<decimal?>("VientreCamisa")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("VientreCamisa");
+
+                    b.Property<decimal?>("VientreChaleco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("VientreChaleco");
+
+                    b.Property<decimal?>("VientreSaco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("VientreSaco");
+
                     b.HasKey("IdMedida");
 
                     b.HasIndex("IdOrden")
                         .IsUnique();
+
+                    b.HasIndex("OrdenIdOrden");
 
                     b.ToTable("MedidasOrden");
                 });
@@ -540,6 +877,10 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("FechaCreacion");
 
+                    b.Property<DateTime?>("FechaEntrega")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("FechaEntrega");
+
                     b.Property<DateTime?>("FechaEventoEntrega")
                         .HasColumnType("datetime2")
                         .HasColumnName("FechaEventoEntrega");
@@ -556,13 +897,21 @@ namespace API_Hantonio_Jaramillo.Migrations
                         .HasColumnType("int")
                         .HasColumnName("IdSucursal");
 
-                    b.Property<int>("IdTipoTraje")
+                    b.Property<int?>("IdTipoTraje")
                         .HasColumnType("int")
                         .HasColumnName("IdTipoTraje");
 
                     b.Property<int>("IdUsuario")
                         .HasColumnType("int")
                         .HasColumnName("IdUsuario");
+
+                    b.Property<bool>("IncluyeCamisa")
+                        .HasColumnType("bit")
+                        .HasColumnName("IncluyeCamisa");
+
+                    b.Property<bool>("IncluyeZapato")
+                        .HasColumnType("bit")
+                        .HasColumnName("IncluyeZapato");
 
                     b.Property<string>("MetodoPago")
                         .HasColumnType("nvarchar(max)")
@@ -571,6 +920,10 @@ namespace API_Hantonio_Jaramillo.Migrations
                     b.Property<decimal>("MontoAbonado")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("MontoAbonado");
+
+                    b.Property<bool>("esSmoking3Piezas")
+                        .HasColumnType("bit")
+                        .HasColumnName("esSmoking3Piezas");
 
                     b.HasKey("IdOrden");
 
@@ -732,6 +1085,11 @@ namespace API_Hantonio_Jaramillo.Migrations
                         {
                             IdTipoTraje = 9,
                             Descripcion = "Smoking"
+                        },
+                        new
+                        {
+                            IdTipoTraje = 10,
+                            Descripcion = "Zapatos"
                         });
                 });
 
@@ -798,55 +1156,90 @@ namespace API_Hantonio_Jaramillo.Migrations
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetalleCamisa", b =>
                 {
-                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
                         .WithOne("DetalleCamisa")
                         .HasForeignKey("API_Hantonio_Jaramillo.Models.DetalleCamisa", "IdOrden")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
 
                     b.Navigation("Orden");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetalleChaleco", b =>
                 {
-                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
                         .WithOne("DetalleChaleco")
                         .HasForeignKey("API_Hantonio_Jaramillo.Models.DetalleChaleco", "IdOrden")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
 
                     b.Navigation("Orden");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetallePantalon", b =>
                 {
-                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
                         .WithOne("DetallePantalon")
                         .HasForeignKey("API_Hantonio_Jaramillo.Models.DetallePantalon", "IdOrden")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
 
                     b.Navigation("Orden");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetalleSaco", b =>
                 {
-                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
                         .WithOne("DetalleSaco")
                         .HasForeignKey("API_Hantonio_Jaramillo.Models.DetalleSaco", "IdOrden")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
+
+                    b.Navigation("Orden");
+                });
+
+            modelBuilder.Entity("API_Hantonio_Jaramillo.Models.DetalleZapato", b =>
+                {
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
+                        .WithOne("DetalleZapato")
+                        .HasForeignKey("API_Hantonio_Jaramillo.Models.DetalleZapato", "IdOrden")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
 
                     b.Navigation("Orden");
                 });
 
             modelBuilder.Entity("API_Hantonio_Jaramillo.Models.MedidasOrden", b =>
                 {
-                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", null)
                         .WithOne("Medidas")
                         .HasForeignKey("API_Hantonio_Jaramillo.Models.MedidasOrden", "IdOrden")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("API_Hantonio_Jaramillo.Models.Orden", "Orden")
+                        .WithMany()
+                        .HasForeignKey("OrdenIdOrden");
 
                     b.Navigation("Orden");
                 });
@@ -873,9 +1266,7 @@ namespace API_Hantonio_Jaramillo.Migrations
 
                     b.HasOne("API_Hantonio_Jaramillo.Models.TipoTraje", "TipoTraje")
                         .WithMany("Ordenes")
-                        .HasForeignKey("IdTipoTraje")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdTipoTraje");
 
                     b.HasOne("API_Hantonio_Jaramillo.Models.Usuario", "Usuario")
                         .WithMany()
@@ -941,6 +1332,8 @@ namespace API_Hantonio_Jaramillo.Migrations
                     b.Navigation("DetallePantalon");
 
                     b.Navigation("DetalleSaco");
+
+                    b.Navigation("DetalleZapato");
 
                     b.Navigation("Medidas");
                 });

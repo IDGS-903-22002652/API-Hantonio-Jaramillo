@@ -2,6 +2,7 @@
 {
     public class DetallePantalonDTOs
     {
+        public string? NumeroProduccion { get; set; }
         public string? CodigoTela { get; set; }
         public string? CodigoBoton { get; set; }
         public string? EstiloPretina { get; set; }

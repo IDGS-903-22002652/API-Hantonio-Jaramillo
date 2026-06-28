@@ -1,6 +1,7 @@
 ﻿using API_Hantonio_Jaramillo.Data;
 using API_Hantonio_Jaramillo.DTOs;
 using API_Hantonio_Jaramillo.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,7 @@ namespace API_Hantonio_Jaramillo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class EstatusOrdenController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

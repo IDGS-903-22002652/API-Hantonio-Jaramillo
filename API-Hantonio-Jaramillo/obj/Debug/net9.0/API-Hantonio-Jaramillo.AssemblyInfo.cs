@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-Hantonio-Jaramillo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c94b5a5155eb372018c09020f858ba29b4ee5ffb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e5cb668acc96e795809e697b85a0167a56644f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-Hantonio-Jaramillo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-Hantonio-Jaramillo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

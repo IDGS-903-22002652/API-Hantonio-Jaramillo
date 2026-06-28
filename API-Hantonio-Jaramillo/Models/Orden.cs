@@ -20,7 +20,13 @@ namespace API_Hantonio_Jaramillo.Models
         public int IdSucursal { get; set; }
 
         [Column("IdTipoTraje")]
-        public int IdTipoTraje { get; set; }
+        public int? IdTipoTraje { get; set; }
+        [Column("IncluyeCamisa")]
+        public bool IncluyeCamisa { get; set; }
+        [Column("IncluyeZapato")]
+        public bool IncluyeZapato { get; set; }
+        [Column("esSmoking3Piezas")]
+        public bool esSmoking3Piezas { get; set; }
 
         [Column("IdEstatus")]
         public int IdEstatus { get; set; }
@@ -30,6 +36,9 @@ namespace API_Hantonio_Jaramillo.Models
 
         [Column("FechaCitaMedidas")]
         public DateTime? FechaCitaMedidas { get; set; }
+
+        [Column("FechaEntrega")]
+        public DateTime? FechaEntrega { get; set; }
 
         [Column("FechaEventoEntrega")]
         public DateTime? FechaEventoEntrega { get; set; }
@@ -68,5 +77,7 @@ namespace API_Hantonio_Jaramillo.Models
         public virtual DetalleChaleco? DetalleChaleco { get; set; }
         [InverseProperty("Orden")]
         public virtual DetalleCamisa? DetalleCamisa { get; set; }
+        [InverseProperty("Orden")]
+        public virtual DetalleZapato? DetalleZapato { get; set; }
     }
 }

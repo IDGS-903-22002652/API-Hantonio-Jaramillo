@@ -9,7 +9,7 @@ namespace API_Hantonio_Jaramillo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize] // Requiere que el sastre esté logueado
+    [Authorize] 
     public class MedidasController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -19,8 +19,7 @@ namespace API_Hantonio_Jaramillo.Controllers
             _context = context;
         }
 
-        // --- 1. OBTENER MEDIDAS POR ID DE ORDEN ---
-        // Útil para cargar el formulario de edición en React
+      
         [HttpGet("orden/{idOrden}")]
         public async Task<ActionResult<MedidasOrden>> GetByOrden(int idOrden)
         {
@@ -35,7 +34,6 @@ namespace API_Hantonio_Jaramillo.Controllers
             return Ok(medidas);
         }
 
-        // --- 2. ACTUALIZAR MEDIDAS ---
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMedidas(int id, [FromBody] MedidasOrden medidas)
         {
@@ -44,10 +42,8 @@ namespace API_Hantonio_Jaramillo.Controllers
                 return BadRequest("El ID de la medida no coincide con el registro.");
             }
 
-            // Marcamos el registro como modificado
             _context.Entry(medidas).State = EntityState.Modified;
 
-            // Protegemos el IdOrden para que no se pueda cambiar accidentalmente a otra orden
             _context.Entry(medidas).Property(x => x.IdOrden).IsModified = false;
 
             try

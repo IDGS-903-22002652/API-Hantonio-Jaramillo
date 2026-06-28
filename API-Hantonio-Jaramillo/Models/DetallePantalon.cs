@@ -13,6 +13,7 @@ namespace API_Hantonio_Jaramillo.Models
 
         [Column("IdOrden")]
         public int IdOrden { get; set; }
+        [Column("NumeroProduccion")][MaxLength(60)] public string? NumeroProduccion { get; set; }
 
         [Column("CodigoTela")][MaxLength(50)] public string? CodigoTela { get; set; }
         [Column("CodigoBoton")][MaxLength(50)] public string? CodigoBoton { get; set; }

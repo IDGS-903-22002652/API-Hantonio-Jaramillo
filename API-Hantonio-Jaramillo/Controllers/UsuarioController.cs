@@ -11,6 +11,7 @@ namespace API_Hantonio_Jaramillo.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class UsuarioController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
@@ -22,8 +23,8 @@ public class UsuarioController : ControllerBase
 
     // --- 1. REGISTRAR USUARIO ---
     [HttpPost("registrar")]
-    [Authorize(Roles = "Administrador")]
-    [AllowAnonymous] // Permitir crear al primer admin; después puedes protegerlo con [Authorize(Roles = "Administrador")]
+    [AllowAnonymous] // Solo el Admin gestiona la infraestructura
+                                         // Permitir crear al primer admin; después puedes protegerlo con [Authorize(Roles = "Administrador")]
     public async Task<ActionResult> Registrar([FromBody] UsuarioDtoCreateRequest request)
     {
         if (await _context.Usuarios.AnyAsync(u => u.NombreUsuario == request.NombreUsuario))

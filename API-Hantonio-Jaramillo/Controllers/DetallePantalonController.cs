@@ -24,7 +24,10 @@ public class DetallePantalonController : ControllerBase
     public async Task<IActionResult> Put(int id, [FromBody] DetallePantalon detalle)
     {
         if (id != detalle.IdDetallePantalon) return BadRequest();
+
         _context.Entry(detalle).State = EntityState.Modified;
+        _context.Entry(detalle).Property(x => x.IdOrden).IsModified = false; // Agregado: Protege la relación
+
         await _context.SaveChangesAsync();
         return Ok(new { message = "Detalle del pantalón actualizado." });
     }

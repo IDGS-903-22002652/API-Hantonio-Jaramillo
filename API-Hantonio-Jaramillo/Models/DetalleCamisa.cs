@@ -13,7 +13,7 @@ namespace API_Hantonio_Jaramillo.Models
 
         [Column("IdOrden")]
         public int IdOrden { get; set; }
-
+        [Column("NumeroProduccion")][MaxLength(60)] public string? NumeroProduccion { get; set; }
         [Column("OpcionCamisa")][MaxLength(50)] public string? OpcionCamisa { get; set; }
         [Column("CodigoTela")][MaxLength(50)] public string? CodigoTela { get; set; }
         [Column("EstiloCuello")][MaxLength(50)] public string? EstiloCuello { get; set; }
@@ -22,6 +22,9 @@ namespace API_Hantonio_Jaramillo.Models
         [Column("EstiloPuno")][MaxLength(50)] public string? EstiloPuno { get; set; }
         [Column("EstiloBolsillo")][MaxLength(50)] public string? EstiloBolsillo { get; set; }
         [Column("PlieguesFrontales")][MaxLength(50)] public string? PlieguesFrontales { get; set; }
+        // Agrégalos junto a los demás campos de texto
+        [Column("SolapaBolsillo")][MaxLength(50)] public string? SolapaBolsillo { get; set; }
+        [Column("PosicionContraste")][MaxLength(50)] public string? PosicionContraste { get; set; }
         [Column("Iniciales")][MaxLength(10)] public string? Iniciales { get; set; }
 
         [Column("Observaciones")]

@@ -12,19 +12,16 @@ namespace API_Hantonio_Jaramillo.Controllers
     public class ClienteController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-
         public ClienteController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // 1. OBTENER CLIENTES (Solo los activos por defecto)
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes([FromQuery] string? buscar, [FromQuery] bool soloActivos = true)
         {
             var query = _context.Clientes.AsQueryable();
 
-            // Filtrar por estatus si se solicita
             if (soloActivos)
             {
                 query = query.Where(c => c.Estatus);
@@ -40,7 +37,6 @@ namespace API_Hantonio_Jaramillo.Controllers
             return await query.OrderByDescending(c => c.FechaRegistro).ToListAsync();
         }
 
-        // 2. OBTENER POR ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
@@ -49,28 +45,20 @@ namespace API_Hantonio_Jaramillo.Controllers
             return cliente;
         }
 
-        // 3. REGISTRAR (Usando tus valores por defecto)
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente([FromBody] Cliente cliente)
         {
-            // La FechaRegistro y Estatus ya tienen valores default en tu modelo
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
-
             return CreatedAtAction(nameof(GetCliente), new { id = cliente.IdCliente }, cliente);
         }
 
-        // 4. ACTUALIZAR (Incluyendo Ciudad y Estado)
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCliente(int id, [FromBody] Cliente cliente)
         {
             if (id != cliente.IdCliente) return BadRequest("El ID no coincide.");
-
             _context.Entry(cliente).State = EntityState.Modified;
-
-            // Evitamos que se modifique la fecha de registro original
             _context.Entry(cliente).Property(x => x.FechaRegistro).IsModified = false;
-
             try
             {
                 await _context.SaveChangesAsync();
@@ -80,13 +68,10 @@ namespace API_Hantonio_Jaramillo.Controllers
                 if (!ClienteExists(id)) return NotFound();
                 else throw;
             }
-
             return Ok(new { message = "Datos del cliente actualizados correctamente." });
         }
 
-        // 5. BAJA LÓGICA (Cambiar Estatus en lugar de eliminar físicamente)
         [HttpPatch("{id}/estatus")]
-        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> CambiarEstatus(int id, [FromBody] bool nuevoEstatus)
         {
             var cliente = await _context.Clientes.FindAsync(id);
