@@ -9,8 +9,7 @@ namespace API_Hantonio_Jaramillo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // Solo el Admin puede interactuar con este controlador
-    [Authorize(Roles = "Administrador")]
+    [Authorize]
     public class RolController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

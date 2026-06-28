@@ -21,6 +21,8 @@ namespace API_Hantonio_Jaramillo.Data
         public DbSet<DetallePantalon> DetallePantalones { get; set; }
         public DbSet<DetalleChaleco> DetalleChalecos { get; set; }
         public DbSet<DetalleCamisa> DetalleCamisas { get; set; }
+        public DbSet<DetalleZapato> DetalleZapatos { get; set; }
+        public DbSet<Finanza> Finanzas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -43,6 +45,7 @@ namespace API_Hantonio_Jaramillo.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
             // --- 2. CONFIGURACIÓN DE DECIMALES ---
+            // --- 2. CONFIGURACIÓN DE DECIMALES ---
             foreach (var property in modelBuilder.Model.GetEntityTypes()
                 .SelectMany(t => t.GetProperties())
                 .Where(p => p.ClrType == typeof(decimal) || p.ClrType == typeof(decimal?)))
@@ -50,17 +53,59 @@ namespace API_Hantonio_Jaramillo.Data
                 property.SetColumnType("decimal(18,2)");
             }
 
-            // --- 3. DATOS SEMILLA ---
+            // --- AGREGAR ESTO: CONFIGURACIÓN DE BORRADO EN CASCADA PARA ÓRDENES ---
+            // Aseguramos que si se elimina una Orden, se eliminen sus detalles y medidas
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.Medidas)
+                .WithOne() // Asumiendo relación 1 a 1. Si es 1 a N, usa WithMany()
+                .HasForeignKey<MedidasOrden>(m => m.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.DetalleSaco)
+                .WithOne()
+                .HasForeignKey<DetalleSaco>(d => d.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.DetallePantalon)
+                .WithOne()
+                .HasForeignKey<DetallePantalon>(d => d.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.DetalleChaleco)
+                .WithOne()
+                .HasForeignKey<DetalleChaleco>(d => d.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.DetalleCamisa)
+                .WithOne()
+                .HasForeignKey<DetalleCamisa>(d => d.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Orden>()
+                .HasOne(o => o.DetalleZapato)
+                .WithOne()
+                .HasForeignKey<DetalleZapato>(d => d.IdOrden)
+                .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<Rol>().HasData(
                 new Rol { IdRol = 1, Nombre = "Administrador" },
                 new Rol { IdRol = 2, Nombre = "Empleado" }
             );
 
             modelBuilder.Entity<EstatusOrden>().HasData(
-                new EstatusOrden { IdEstatus = 1, Descripcion = "Pendiente de medidas" },
-                new EstatusOrden { IdEstatus = 2, Descripcion = "Toma de medidas" },
-                new EstatusOrden { IdEstatus = 3, Descripcion = "En confección" },
-                new EstatusOrden { IdEstatus = 4, Descripcion = "Entregado" }
+                new EstatusOrden { IdEstatus = 1, Descripcion = "Nueva orden" },
+                new EstatusOrden { IdEstatus = 2, Descripcion = "En revisión" },
+                new EstatusOrden { IdEstatus = 3, Descripcion = "Pendiente de medidas" },
+                new EstatusOrden { IdEstatus = 4, Descripcion = "Medidas registradas" },
+                new EstatusOrden { IdEstatus = 5, Descripcion = "Autorizado para producción" },
+                new EstatusOrden { IdEstatus = 6, Descripcion = "En confección" },
+                new EstatusOrden { IdEstatus = 7, Descripcion = "Listo para entrega" },
+                new EstatusOrden { IdEstatus = 8, Descripcion = "Entregado" },
+                new EstatusOrden { IdEstatus = 9, Descripcion = "Cancelado" }
             );
 
             modelBuilder.Entity<TipoTraje>().HasData(
@@ -72,7 +117,9 @@ namespace API_Hantonio_Jaramillo.Data
                 new TipoTraje { IdTipoTraje = 6, Descripcion = "Camisa" },
                 new TipoTraje { IdTipoTraje = 7, Descripcion = "Frac" },
                 new TipoTraje { IdTipoTraje = 8, Descripcion = "Chaque" },
-                new TipoTraje { IdTipoTraje = 9, Descripcion = "Smoking" }
+                new TipoTraje { IdTipoTraje = 9, Descripcion = "Smoking" },
+                new TipoTraje { IdTipoTraje = 10, Descripcion = "Zapatos" }
+
 
 
 

@@ -7,48 +7,148 @@
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\ordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\ordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\detallezapatodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\detallezapatodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\detallesacodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\detallesacodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\detallepantalondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\detallepantalondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\detallechalecodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\detallechalecodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\detallecamisadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\detallecamisadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\api-hantonio-jaramillo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\detallecamisacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\detallecamisacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\detallecamisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\detallecamisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\detallechaleco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\detallechaleco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\detallepantalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\detallepantalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\detallesaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\detallesaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\detallezapato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\detallezapato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\medidasorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\medidasorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\medidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\medidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\migrations\\20260420081850_finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\migrations\\20260420081850_finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\finanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\finanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\finanzascreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\finanzascreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\finanzascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\finanzascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\tipotrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\tipotrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\estatusordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\estatusordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\detallezapatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\detallezapatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\detallesacocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\detallesacocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\detallepantaloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\detallepantaloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\detallechalecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\detallechalecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\ordenmasterdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\ordenmasterdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\estatusordendtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\estatusordendtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\dtos\\medidasdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\dtos\\medidasdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\migrations\\20260417182506_incluye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\migrations\\20260417182506_incluye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|c:\\users\\omjag\\onedrive\\escritorio\\estadias\\backend\\api-hantonio-jaramillo\\api-hantonio-jaramillo\\migrations\\20260417173920_pechodelantero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31475833-950B-4031-9563-83D6CDDDF865}|API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj|solutionrelative:api-hantonio-jaramillo\\migrations\\20260417173920_pechodelantero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,96 +158,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:06:38.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Usuario.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Usuario.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "20260605163046_NumeroProduccion.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260605163046_NumeroProduccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:01:21.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20260311065923_NewChanges.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260311065923_NewChanges.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:59:24.044Z",
+              "WhenOpened": "2026-06-05T16:30:46.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Sucursal.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Sucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Title": "DetalleZapatoDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleZapatoDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\DetalleZapatoDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleZapatoDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\DetalleZapatoDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:58:32.938Z",
+              "WhenOpened": "2026-06-05T16:27:53.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T06:58:08.751Z",
+              "Title": "DetalleSacoDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleSacoDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\DetalleSacoDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleSacoDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\DetalleSacoDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:27:17.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "API-Hantonio-Jaramillo",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-11T06:58:06.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "API-Hantonio-Jaramillo",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-11T06:55:49.396Z",
+              "Title": "DetallePantalonDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetallePantalonDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\DetallePantalonDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetallePantalonDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\DetallePantalonDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:27:07.379Z",
               "EditorCaption": ""
             },
             {
@@ -156,68 +218,410 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:20:51.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Program.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Program.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Title": "DetalleChalecoDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleChalecoDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\DetalleChalecoDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleChalecoDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\DetalleChalecoDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:54:16.773Z",
+              "WhenOpened": "2026-06-05T16:27:00.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "API-Hantonio-Jaramillo.http",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-03-11T06:54:12.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\appsettings.json",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\appsettings.json",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\appsettings.json",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T06:53:52.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DetalleCamisaDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleCamisaDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\DetalleCamisaDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\DetalleCamisaDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\DetalleCamisaDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:53:44.045Z",
+              "WhenOpened": "2026-06-05T16:26:25.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdenController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\OrdenController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\OrdenController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\OrdenController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\OrdenController.cs",
+              "ViewState": "AgIAAKkBAAAAAAAAAAAAwBwBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:36:31.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleSaco.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleSaco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:25:20.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Cliente.cs",
-              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Cliente.cs",
+              "Title": "DetallePantalon.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetallePantalon.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetallePantalon.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetallePantalon.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetallePantalon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:25:15.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetalleChaleco.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleChaleco.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleChaleco.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleChaleco.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleChaleco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:25:11.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetalleCamisa.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleCamisa.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:24:14.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetalleCamisaController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleCamisaController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DetalleCamisaController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleCamisaController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DetalleCamisaController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:31.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleZapato.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleZapato.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\DetalleZapato.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\DetalleZapato.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\DetalleZapato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:25:26.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260420081850_Finanzas.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260420081850_Finanzas.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260420081850_Finanzas.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260420081850_Finanzas.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260420081850_Finanzas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:53:34.906Z",
+              "WhenOpened": "2026-04-20T08:18:50.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FinanzasCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\FinanzasCreateDTO.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\FinanzasCreateDTO.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\FinanzasCreateDTO.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\FinanzasCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T08:15:08.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FinanzasController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\FinanzasController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\FinanzasController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\FinanzasController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\FinanzasController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwv3IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T08:13:02.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TipoTrajeController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\TipoTrajeController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\TipoTrajeController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\TipoTrajeController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\TipoTrajeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:27:59.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedidasController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\MedidasController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\MedidasController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\MedidasController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\MedidasController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:15:02.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedidasOrden.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\MedidasOrden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:33:20.811Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Finanza.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Finanza.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Finanza.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Finanza.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Finanza.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T08:15:46.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T08:17:10.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\RolController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:05:42.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SucursalController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\SucursalController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\SucursalController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\SucursalController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\SucursalController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:18:48.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EstatusOrdenController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\EstatusOrdenController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\EstatusOrdenController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\EstatusOrdenController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\EstatusOrdenController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DetalleZapatoController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleZapatoController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DetalleZapatoController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleZapatoController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DetalleZapatoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:46.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DetalleSacoController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleSacoController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DetalleSacoController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleSacoController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DetalleSacoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:42.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DetallePantalonController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetallePantalonController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DetallePantalonController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetallePantalonController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DetallePantalonController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:39.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetalleChalecoController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleChalecoController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\DetalleChalecoController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\DetalleChalecoController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\DetalleChalecoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:36.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:41:15.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:13:35.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrdenMasterDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\OrdenMasterDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\OrdenMasterDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\OrdenMasterDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\OrdenMasterDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:35:15.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Orden.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Models\\Orden.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Models\\Orden.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Models\\Orden.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:20:28.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260417173920_PechoDelantero.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260417173920_PechoDelantero.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260417173920_PechoDelantero.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260417173920_PechoDelantero.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260417173920_PechoDelantero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:39:20.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260417182506_Incluye.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260417182506_Incluye.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\Migrations\\20260417182506_Incluye.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\Migrations\\20260417182506_Incluye.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\Migrations\\20260417182506_Incluye.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:25:06.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MedidasDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\MedidasDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\MedidasDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\MedidasDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\MedidasDTOs.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wEUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:35:16.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EstatusOrdenDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\EstatusOrdenDTOs.cs",
+              "RelativeDocumentMoniker": "API-Hantonio-Jaramillo\\DTOs\\EstatusOrdenDTOs.cs",
+              "ToolTip": "C:\\Users\\omjag\\OneDrive\\Escritorio\\Estadias\\BackEnd\\API-Hantonio-Jaramillo\\API-Hantonio-Jaramillo\\DTOs\\EstatusOrdenDTOs.cs",
+              "RelativeToolTip": "API-Hantonio-Jaramillo\\DTOs\\EstatusOrdenDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:35:15.693Z"
             }
           ]
         }

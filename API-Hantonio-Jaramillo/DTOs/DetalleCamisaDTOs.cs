@@ -2,6 +2,7 @@
 {
     public class DetalleCamisaDTOs
     {
+        public string? NumeroProduccion {  get; set; }
         public string? OpcionCamisa { get; set; }
         public string? CodigoTela { get; set; }
         public string? EstiloCuello { get; set; }
@@ -13,5 +14,7 @@
         public string? Iniciales { get; set; }
         public string? Observaciones { get; set; }
         public decimal PrecioCamisa { get; set; }
+        public string? SolapaBolsillo { get; set; }
+        public string? PosicionContraste { get; set; }
     }
 }

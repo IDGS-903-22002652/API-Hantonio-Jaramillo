@@ -2,6 +2,7 @@
 {
     public class DetalleSacoDTOs
     {
+        public string? NumeroProduccion { get; set; }
         public string? CodigoTela { get; set; }
         public string? CodigoForro { get; set; }
         public string? CodigoBoton { get; set; }

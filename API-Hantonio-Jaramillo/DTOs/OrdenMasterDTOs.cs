@@ -2,7 +2,7 @@
 
 namespace API_Hantonio_Jaramillo.DTOs
 {
-    public class OrdenMasterDTOs
+    public class OrdenDTOs
     {
         public int IdCliente { get; set; }
 
@@ -10,9 +10,11 @@ namespace API_Hantonio_Jaramillo.DTOs
         public int IdSucursal { get; set; }
         public int IdEstatus { get; set; }
         public bool IncluyeCamisa { get; set; }
+        public bool IncluyeZapato { get; set; }
+        public bool esSmoking3Piezas { get; set; }
         // -------------------------------------------------------
 
-        public int IdTipoTraje { get; set; }
+        public int? IdTipoTraje { get; set; }
 
         // Estos pueden ser opcionales si no los mandas en el form simplificado
         public decimal CostoTotal { get; set; } = 0;
@@ -21,6 +23,7 @@ namespace API_Hantonio_Jaramillo.DTOs
         public string? MetodoPago { get; set; }
 
         public DateTime? FechaCitaMedidas { get; set; }
+        public DateTime? FechaEntrega { get; set; }
         public DateTime? FechaEventoEntrega { get; set; }
 
         // --- MAPEO DE JSON (PUENTE ENTRE REACT Y C#) ---
@@ -40,5 +43,8 @@ namespace API_Hantonio_Jaramillo.DTOs
 
         [JsonPropertyName("DetalleCamisa")] // React puede enviarlo como "DetalleCamisa" si activas el check
         public DetalleCamisaDTOs? Camisa { get; set; }
+        [JsonPropertyName("DetalleZapato")] // React puede enviarlo como "DetalleCamisa" si activas el check
+        public DetalleZapatoDTOs? Zapato { get; set; }
+
     }
 }

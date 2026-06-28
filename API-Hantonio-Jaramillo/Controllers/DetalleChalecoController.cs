@@ -24,7 +24,10 @@ public class DetalleChalecoController : ControllerBase
     public async Task<IActionResult> Put(int id, [FromBody] DetalleChaleco detalle)
     {
         if (id != detalle.IdDetalleChaleco) return BadRequest();
+
         _context.Entry(detalle).State = EntityState.Modified;
+        _context.Entry(detalle).Property(x => x.IdOrden).IsModified = false; // Agregado: Protege la relación
+
         await _context.SaveChangesAsync();
         return Ok(new { message = "Detalle del chaleco actualizado." });
     }
